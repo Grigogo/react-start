@@ -1,14 +1,17 @@
 import './CostItem.css'
+import CostDate from '../CostDate/CostDate'
+import Card from '../Card/Card'
 
-function CostItem() {
+function CostItem(props) {
+
   return(
-    <div className='cost-item'>
-      <div>Дата</div>
+    <Card className='cost-item'>
+      <CostDate date={props.date} />
       <div className='cost-item__description'>
-        <div>Монитор</div>
-        <div className='cost-item__price'>32000 Р</div>
+        <div>{props.description}</div>
+        <div className='cost-item__price'>{props.amount} Р</div>
       </div>
-    </div>
+    </Card>
   )
 }
 

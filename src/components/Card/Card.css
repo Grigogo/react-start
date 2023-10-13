@@ -1,0 +1,6 @@
+.card {
+  border-radius: 6px;
+  -webkit-box-shadow: 4px 4px 28px 2px rgba(229, 236, 242, 0.1);
+  -moz-box-shadow: 4px 4px 28px 2px rgba(229, 236, 242, 0.1);
+  box-shadow: 4px 4px 28px 2px rgba(229, 236, 242, 0.1);
+}
